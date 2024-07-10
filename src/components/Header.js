@@ -15,6 +15,8 @@ const Header = () => {
       <nav>
         <ul style={{ listStyle: 'none', display: 'flex', gap: '20px' }}>
           <li><NavLink to="/" exact activeClassName="active-link">Home</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active-link">About</NavLink></li>
+          <li><NavLink to="/contact" activeClassName="active-link">Contact</NavLink></li>
           <li><NavLink to="/login" activeClassName="active-link">Login</NavLink></li>
           <li><NavLink to="/register" activeClassName="active-link">Register</NavLink></li>
           <li><NavLink to="/profile" activeClassName="active-link">Profile</NavLink></li>
